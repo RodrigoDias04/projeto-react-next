@@ -3,6 +3,6 @@ import styles from './Footer.module.css'
 
 export default function Footer() {
   return <footer className={styles.footer}>
-  2024 © Rodrigo Dias
+  2024 © Rodrigo Dias DIW
   </footer>
 }

@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "title": "HTML",
+      "description": "Uma linguagem de marcação para estruturar o conteúdo da web.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "title": "CSS",
+      "description": "Uma linguagem de estilo usada para definir a aparência de páginas web.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "title": "JavaScript",
+      "description": "Uma linguagem de programação para adicionar interatividade à web.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "title": "JSON",
+      "description": "Um formato de dados leve para troca de informações.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "title": "API RESTful",
+      "description": "Arquitetura para construir APIs escaláveis e eficientes.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 5
+    },
+    {
+      "id": 6,
+      "title": "Swagger",
+      "description": "Ferramenta para projetar, construir e documentar APIs RESTful.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "title": "GitHub",
+      "description": "Uma plataforma para hospedagem de código e controle de versões.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "title": "Codespaces",
+      "description": "Um ambiente de desenvolvimento no GitHub baseado em nuvem.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "title": "GitHub Pages",
+      "description": "Serviço de hospedagem de sites diretamente de um repositório GitHub.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 4
+    },
+    {
+      "id": 10,
+      "title": "React.js",
+      "description": "Uma biblioteca JavaScript para criar interfaces de usuário.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 5
+    },
+    {
+      "id": 11,
+      "title": "Next.js",
+      "description": "Um framework React para aplicações web otimizadas.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 5
+    },
+    {
+      "id": 12,
+      "title": "Vercel",
+      "description": "Uma plataforma para hospedar sites e aplicações web com alta performance.",
+      "image": "https://via.placeholder.com/150",
+      "rating": 4
+    }
+  ]
+  

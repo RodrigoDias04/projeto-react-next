@@ -6,11 +6,10 @@ export interface Produto {
   image: string;
 }
 
-export interface Tecnologia {
+export interface Tecnologia{
+  id:number;
   title: string;
-  description: string;
   image: string;
+  description: string;
   rating: number;
-  price?: number;
-  id?: number;
 }

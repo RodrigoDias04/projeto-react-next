@@ -8,17 +8,18 @@ const TecnologiasPage: React.FC = () => {
   const techs = JSON.parse(JSON.stringify(tecnologias));
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {techs.map((tech: any, index: number) => (
-        <Card 
-          key={index} 
-          id={tech.id} 
-          title={tech.title} 
-          description={tech.description} 
-          image={tech.image} 
-          rating={tech.rating} 
-        />
-      ))}
-    </div>
+    <div >
+    {techs.map((tecnologia: { id: number; title: string; image: string; description: string; rating: number }) => (
+      <Card
+        key={tecnologia.id}
+        produto={{
+          id: tecnologia.id,
+          title: tecnologia.title,
+          image: tecnologia.image,
+          description: `${tecnologia.description} - Nota: ${tecnologia.rating}/5`,
+        }}
+      />
+    ))}
+  </div>
   );
 };

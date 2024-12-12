@@ -2,6 +2,7 @@
 
 import React from 'react';
 import useSWR from 'swr';
+import produtosData from '@/app/data/produtos.json'; 
 import { Produto } from '../models/interfaces';
 import Card from '@/components/Card/Card';
 
@@ -15,18 +16,18 @@ const ProductsPage: React.FC = () => {
   if (!products) return <div>Nenhum produto disponível.</div>;
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {products.map((product) => (
-        <Card 
-          key={product.id} 
-          id={product.id} 
-          title={product.title} 
-          description={product.description} 
-          price={product.price} 
-          image={product.image} 
-        />
-      ))}
-    </div>
+    <div>
+      <h1 >Produtos</h1>
+    
+        {JSON.parse(JSON.stringify(produtosData)).map((produto: Produto) => (
+
+          <Card key={produto.id} produto={produto} />
+          
+        ))} 
+     
+    
+  </div>
+
   );
 };
 

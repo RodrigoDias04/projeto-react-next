@@ -23,3 +23,5 @@ const TecnologiasPage: React.FC = () => {
   </div>
   );
 };
+
+export default TecnologiasPage;

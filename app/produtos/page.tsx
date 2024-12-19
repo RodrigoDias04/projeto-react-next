@@ -9,7 +9,7 @@ import Card from '@/components/Card/Card';
 const fetcher = (url: string) => fetch(url).then((res) => res.json());
 
 const ProductsPage: React.FC = () => {
-  const { data: products, error, isLoading } = useSWR<Produto[]>('https://api.deisi.shop/products', fetcher);
+  const { data: products, error, isLoading } = useSWR<Produto[]>('https://deisishop.pythonanywhere.com/products/', fetcher);
 
   if (error) return <div>Ocorreu um erro ao carregar os produtos.</div>;
   if (isLoading) return <div>Carregando...</div>;
